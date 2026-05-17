@@ -1,0 +1,65 @@
+/* --- Global Reset --- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* --- Header Styles --- */
+h1 {
+    background: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #333;
+}
+
+/* --- Hero Section Styles --- */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e63946; /* A more pleasant red */
+    color: white;
+    padding: 40px;
+}
+
+.hero .text {
+    width: 60%;
+}
+
+.hero img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* --- Cards Container --- */
+.cards {
+    display: flex;
+}
+
+/* --- Individual Card Styles --- */
+.card {
+    flex: 1;
+    background: #a8dadc; /* Softer background color instead of darkred */
+    color: #1d3557;
+    padding: 20px;
+    border: 1px solid #f1faee;
+}
+
+/* --- Responsive Layout Adjustments --- */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero .text {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+}
