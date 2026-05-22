@@ -1,0 +1,41 @@
+/* --- Global Reset --- */
+* {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --- Body Styles --- */
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX9R9qeanfxjMODGRgK_Lx9pgzgwgZ7zEmwQ&s");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Added for a nice parallax-like effect */
+}
+
+/* --- Flexbox Container --- */
+.parent {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+/* --- Individual Card Styles --- */
+.card {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Card Image --- */
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
